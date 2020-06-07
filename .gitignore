@@ -1,1 +1,3 @@
-src/.terraform/terraform.tfstate
+src/.terraform
+*.tfstate
+*.tfstate.backup
