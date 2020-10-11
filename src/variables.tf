@@ -8,7 +8,7 @@ variable "sku" {
 }
 
 variable "retention_in_days" {
-  description = "The workspace data retetion in days. Possible values range between 30 and 730."
+  description = "The workspace data retention in days. Possible values range between 30 and 730."
   default = 30
 }
 
