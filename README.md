@@ -50,12 +50,12 @@ setting the `tags` variable as defined in the `variables.tf` file.
 
 ## Use
 
-* Assumes you have an Azure subscription and permissions to deploy into said subscription
-* Need to be signed in with to your account to the subscription you want to deploy to
-* run terraform with following command
+In order to run the Terraform configuration in this repository you need to have an Azure subscription and be [connected to that subscription](https://www.terraform.io/docs/providers/azurerm/index.html).
 
-        tf plan -out ./build/tf/plan
+Once you are signed in run the Terraform [plan](https://www.terraform.io/docs/commands/plan.html) command to preview the changes that will be made.
 
-* apply with the following command
+    tf plan -out ./build/tf/plan
 
-        tf apply ./build/tf/plan
+When you are happy with the plan execute the plan with the Terraform [apply](https://www.terraform.io/docs/commands/apply.html) command.
+
+    tf apply ./build/tf/plan
