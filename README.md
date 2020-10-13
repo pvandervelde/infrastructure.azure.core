@@ -1,6 +1,6 @@
 # infrastructure.azure.core.diagnostics
 
-The `infrastructure.azure.core` repository stores the resource configuration files for
+The `infrastructure.azure.core.diagnostics` repository stores the resource configuration files for
 [Terraform](https://www.terraform.io/) to deploy a
 [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview#terminology)
 with [Azure log analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-platform-logs)
